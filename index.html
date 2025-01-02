@@ -1,12 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My GitHub Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            scroll-behavior: smooth; /* Smooth scrolling */
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #1a73e8;
+        }
+        section {
+            padding: 50px 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: #1a73e8;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        button {
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+        .social-links a {
+            margin-right: 15px; /* Space between social links */
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is hosted on GitHub Pages!
-    <a href="https://dhanuja-ds04.github.io/DHANUJA-DS04_2.github"/>Link</a>
-    </p>
+    <header>
+        <h1>Welcome to My GitHub Page</h1>
+    </header>
+
+    <nav>
+        <a href="#home" aria-label="Go to Home Section">Home</a>
+        <a href="#about" aria-label="Go to About Section">About</a>
+        <a href="#contact" aria-label="Go to Contact Section">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Hi, I am Dhanuja, a student from M.Sc. Data Science Part 1, studying at Goa University, Taleigao Plateau. This is my first webpage hosted on GitHub Pages! I'm excited to share my projects and ideas here.</p>
+        <p>Feel free to browse through the content and explore my other pages.</p>
+        <a href="https://dhanuja-ds04.github.io/DHANUJA-DS04_2.github" class="button">
+            <button>Go to Next Page</button>
+        </a>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Address: 123, Random Street, Goa</p>
+        <p>Student of Software Engineering, managed by Sir Jarret Fernandes.</p>
+        <p>I'm passionate about Data Science and Software Engineering. In my free time, I love exploring new technologies and contributing to open-source projects.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:mscds.2402@unigoa.ac.in">mscds.2402@unigoa.ac.in</a></p>
+        <p>Feel free to reach out for collaborations or if you have any questions!</p>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/yourusername" target="_blank" aria-label="Visit my GitHub profile">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="Visit my LinkedIn profile">LinkedIn</a>
+        </div>
+        <p>&copy; 2025 My GitHub Page | Designed by Me</p>
+    </footer>
 </body>
 </html>
